@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>MBSG_FireImmune</defName>
+    <label>fire immune</label> 
+    <labelShortAdj>fireproof</labelShortAdj> 
+    <description>Carriers of this gene have special fast-acting sweat glands and heat-resistant skin. They never take fire damage or catch on fire.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireResistant</iconPath>
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+    <displayOrderInCategory>59.9</displayOrderInCategory>
+    <statFactors>
+      <Flammability>0</Flammability>
+    </statFactors>
+    <damageFactors>
+      <Flame>0</Flame>
+    </damageFactors>
+    <biostatMet>-3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>foam</symbol></li>
+        <li><symbol>wet</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>foam</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>FireDamage</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_FireResilient</defName>
+    <label>fire reslilient</label> 
+    <labelShortAdj>fireproof</labelShortAdj> 
+    <description>Carriers of this gene have special fast-acting sweat glands and heat-resistant skin. They only take 66% of the normal damage from fire. The chance of them catching on fire is also reduced by half.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireResistant</iconPath>
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+    <displayOrderInCategory>60.1</displayOrderInCategory>
+    <statFactors>
+      <Flammability>0.5</Flammability>
+    </statFactors>
+    <damageFactors>
+      <Flame>0.66</Flame>
+    </damageFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>foam</symbol></li>
+        <li><symbol>wet</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>foam</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>FireDamage</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_FireWeaknessMinor</defName>
+    <label>timberskin</label>
+    <labelShortAdj>tinderskin</labelShortAdj>
+    <description>Carriers have dry skin which burns easily from fire, and their immune systems react very poorly to this kind of threat. Damage from fire is multiplied by 2.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+    <displayOrderInCategory>69.9</displayOrderInCategory>
+    <damageFactors>
+      <Flame>2</Flame>
+    </damageFactors>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dry</symbol></li>
+        <li><symbol>tinder</symbol></li>
+        <li><symbol>kindle</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>FireDamage</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_FireWeaknessMajor</defName>
+    <label>paperskin</label>
+    <labelShortAdj>tinderskin</labelShortAdj>
+    <description>Carriers have dry, extremely thin skin which burns easily from fire, and their immune systems react very poorly to this kind of threat. Damage from fire is multiplied by 6.</description>
+    <iconPath>UI/Icons/Genes/Gene_FireWeakness</iconPath>
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+    <displayOrderInCategory>70.1</displayOrderInCategory>
+    <damageFactors>
+      <Flame>6</Flame>
+    </damageFactors>
+    <biostatMet>3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dry</symbol></li>
+        <li><symbol>tinder</symbol></li>
+        <li><symbol>kindle</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>FireDamage</li>
+    </exclusionTags>
+  </GeneDef>
+</Defs>

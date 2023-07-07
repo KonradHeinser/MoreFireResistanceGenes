@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Fire Resistance Genes</name>
+  <author>alite</author>
+  <packageId>MoreBiotechStyleGenes.Fire</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.royalty</packageId>
+      <displayName>Royalty</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.ideology</packageId>
+      <displayName>Ideology</displayName>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+Adds 4 new fire resistance genes, 2 that improve fire resistance and 2 that make the pawn take more fire damage.
+
+Included in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url]
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+[url=https://github.com/KonradHeinser/MoreFireResistanceGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
