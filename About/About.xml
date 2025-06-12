@@ -5,17 +5,11 @@
   <packageId>MoreBiotechStyleGenes.Fire</packageId>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   
   <modDependencies>
-    <li>
-      <packageId>ludeon.rimworld.royalty</packageId>
-      <displayName>Royalty</displayName>
-    </li>
-    <li>
-      <packageId>ludeon.rimworld.ideology</packageId>
-      <displayName>Ideology</displayName>
-    </li>
     <li>
       <packageId>ludeon.rimworld.biotech</packageId>
       <displayName>Biotech</displayName>
